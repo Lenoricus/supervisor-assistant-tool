@@ -1,0 +1,1 @@
+In this repository there is a client-server application being developed for passing a diploma at the FIT NSU in 2023.

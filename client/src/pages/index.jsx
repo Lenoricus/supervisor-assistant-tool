@@ -1,0 +1,10 @@
+export {default as Project} from './Project';
+export {default as Tasks} from './Tasks';
+export {default as Employees} from './Employees';
+export {default as Teams} from './Teams';
+export {default as Admin} from './Admin';
+export {default as Auth} from './Auth';
+export {default as TaskPage} from './TaskPage';
+export {default as EmployeePage} from './EmployeePage';
+export {default as TeamPage} from './TeamPage';
+export {default as ProjectPage} from './ProjectPage';

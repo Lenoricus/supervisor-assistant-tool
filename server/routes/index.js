@@ -1,0 +1,23 @@
+const Router = require('express')
+const router = new Router()
+const userRouter = require('./userRouter')
+const taskRouter = require('./taskRouter')
+const projectRouter = require('./projectRouter')
+const teamRouter = require('./teamRouter')
+const statusRouter = require('./statusRouter')
+const userTeamRouter = require('./userTeamRouter')
+const roleRouter = require('./roleRouter')
+const qualificationRouter = require('./qualificationRouter')
+const userTaskRouter = require('./userTaskRouter')
+
+router.use('/user', userRouter)
+router.use('/tasks', taskRouter)
+router.use('/projects', projectRouter)
+router.use('/teams', teamRouter)
+router.use('/status', statusRouter)
+router.use('/role', roleRouter)
+router.use('/qualification', qualificationRouter)
+router.use('/user-team', userTeamRouter)
+router.use('/user-task', userTaskRouter)
+
+module.exports = router
