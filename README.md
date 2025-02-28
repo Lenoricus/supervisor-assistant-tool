@@ -1,1 +1,1 @@
-In this repository there is a client-server application being developed for passing a diploma at the FIT NSU in 2023.
+Моя ВКР. Технологии: JS ES6, React.js, Node.js + Express, Sequelize, Tailwind CSS, PostgreSQL. 2023г.
